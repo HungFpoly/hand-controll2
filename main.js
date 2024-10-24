@@ -97,7 +97,7 @@ function init_handTracking() {
   HandTrackerNavigationHelper.init({
     canvasVideo: document.getElementById("handNavigationCanvasVideo"),
     canvasPointer: document.getElementById("handNavigationCanvasPointer"),
-    NNsPaths: [NNPath + "NN_NAV_21.json"],
+    NNsPaths: [NNPath + "NN_NAV_RP_9.json"],
     threshold: 0.95,
     videoSettings: {
       idealWidth: Math.max(idealHeight, idealWidth),
